@@ -1,0 +1,7 @@
+---
+title: "A report for `r state`"
+output: pdf_document
+---
+
+The area of `r state` is `r state.area[state.name == state]`
+square miles.
